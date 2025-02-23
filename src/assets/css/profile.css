@@ -1,0 +1,9 @@
+.myProfileImg{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid #1C2664;
+    cursor: pointer;
+    background:#8B93C4;
+ }
+  

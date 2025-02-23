@@ -1,0 +1,33 @@
+footer{
+  background: linear-gradient(270deg, #1D2766 7.56%, #171F52 89.74%);
+  position: fixed;
+  bottom: 0px;
+  width: max-content;
+  margin-left: 2px !important;
+  /* width: 414px; */
+}
+.footerText{
+    font-size: 11px;
+    text-wrap: nowrap;
+    margin-top: 5px;
+}
+.footerHomeImg{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: -40px;
+}
+@media screen and (max-width: 430px) {
+    /* Media query for screens with maximum width of 576px */
+    footer {
+      width: 100%; /* Adjust body width to fill the viewport */
+    }
+  }
+@media screen and (max-width:350px) {
+    .footerText{
+      font-size: 10px;
+    }
+}
+ 

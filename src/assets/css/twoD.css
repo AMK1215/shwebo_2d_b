@@ -1,0 +1,36 @@
+.lottoHomeContainer {
+    background: #fff;
+    color: #4B5AB5;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.twoDBetBtn{
+    position: fixed;
+    bottom: 40px;
+    left: 46%;
+    display: flex;
+     align-items: flex-end;
+    justify-content: center;
+    width: max-content;
+}
+.modal{
+    top: 20% !important;
+     margin:0 auto !important;
+     left: auto !important;
+}
+.timeBtn{
+    background: #4B5AB5;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width:680px) {
+    .twoDBetBtn{
+        left: 40%;
+    }
+}
+@media screen and (max-width:360px) {
+    .twoDBetBtn{
+        left: 35%;
+    }
+}
